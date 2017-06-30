@@ -1,0 +1,52 @@
+.searchspace {margin: 20px auto !important;}
+.rtype, .cttype{margin-left:10px !important;}
+fieldset{border:1px solid #ccc !important;}
+.types{margin-bottom:15px;}
+.fields{padding:15px;}
+.serviceadd{text-align:center;}
+.choice label{float:right;}
+.addbutton{min-height:50px}
+.fileupload{background: #5bc0de;border-color:#46b8da;border-radius: 4px;color: #fff;}
+.fileupload:hover{background-color: #31b0d5;border-color: #269abc;}
+.inputfile, .companyinput, .cancelinput, .idproofinput, .adresprofinput{
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;	
+	position: absolute;	
+}
+.inputfile + label, .companyinput + label, .cancelinput + label, .idproofinput  + label, .adresprofinput + label {
+    font-size: 1.25em;
+    font-weight: 700;
+    color: white;
+    background-color: #5bc0de;
+    display: inline-block;
+	padding:0px 7px;
+	cursor: pointer;
+}
+.fa-upload{font-size:14px;}
+.btnupload{left: 25%;position: relative;}
+.inputfile:focus + label, .inputfile + label:hover, .companyinput:focus + label, .companyinput + label:hover, .cancelinput:focus + label, .cancelinput + label:hover, .idproofinput:focus + label, .idproofinput + label:hover, .adresprofinput:focus + label, .adresprofinput + label:hover{background-color: #31b0d5;}
+#upfile{border:none;}
+.remark{min-height:100px;}
+.form-control{border-radius:0px !important;}
+.ebutton{margin-right:10px;}
+.remainder{min-height:150px;}
+@media (min-width: 768px)
+{
+.product-enquiry{width:99% !important;}
+}
+.action-link > a{font-size:18px;margin-right:10px;}
+.enquiry-list{margin-top:20px;}
+.error{color:#f00;font-size:11px;}
+.dropdown-menu {
+	    right:2px !important;
+		 min-width: 178px !important;
+}
+.control-label{font-size:11px;text-align:left !important;}
+.form-control{height: 26px !important;font-size: 11px !important;}
+.radio label, .chk-lbl{font-size:11px;}
+.chk-lbl input{margin-right:2px !important;}
+.radio input[type=radio]{margin-left: -15px !important;bottom: 6px;}
+.table>tbody>tr>td{font-size: 11px;}
+.table>thead>tr>th{font-size: 12px;font-weight: 800;}
+.btn{padding:2px 12px !important;}
